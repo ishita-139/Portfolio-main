@@ -22,58 +22,56 @@ interface Project {
 export function Projects() {
   const projects: Project[] = [
     {
-      title: 'AI Readme Generator',
-      description: 'Developed an AI-powered README generator using Next.js, REST API, Gemini AI, and Tailwind CSS. Produces READMEs in under 10s, and integrates GitHub REST API and custom prompts.',
-      image: '/githubreadmegenerator.png',
-      technologies: ['Next.js', 'REST API', 'Google Gemini', 'Tailwind CSS'],
-      liveUrl: 'https://custom-github-ai-readme-generator.vercel.app/',
-      githubUrl: 'https://github.com/rajat-kumar-thakur/GithubReadmeGenerator',
-      featured: true,
-      stats: {  users: '200+' }
-    },
+    title: 'AI Finance Platform',
+    description:
+      'Built an AI-powered finance management platform with a user-friendly dashboard featuring charts, tables, and AI-based receipt scanning. Integrated Gemini AI to generate financial insights, automate recurring transactions, and send budget alerts. Implemented secure authentication, rate limiting, and bot protection.',
+    image: '/ai-finance-platform.png', // add image in public/
+    technologies: [
+      'Next.js',
+      'Tailwind CSS',
+      'Gemini AI',
+      'Prisma',
+      'Shadcn UI',
+      'Inngest',
+      'Arcjet',
+    ],
+    githubUrl: 'https://github.com/ishita-139/AI-Finance-PLatform',
+    featured: true,
+  },
     {
-      title: 'Accelerated Feature and Pose Estimation for Time-Critical Pick-and-Place Applications',
-      description: 'Prepared a 4x faster pipeline for pose estimation in point clouds using surface variation and Harris Corner detection. Achieved a 70% reduction in computation time compared to state-of-the-art methods.',
-      image: '/workflow.png',
-      technologies: ['Computer Vision', 'Python', '3D Point Cloud'],
-      githubUrl: 'https://github.com/rajat-kumar-thakur/Accelerated-Feature-and-Pose-Estimation-for-Time-Critical-Pick-and-Place-Applications',
-      featured: true,
-    },
-    {
-      title: 'Restaurant Management System in Assembly',
-      description: 'Accelerated Microsoft Macro Assembler based Restaurant Management System food service operations, reducing order processing time. Managed bill history and automated bill generation for restaurants.',
-      image: '/assembly.png',
-      technologies: ['x86 Assembly Language', 'MASM'],
-      githubUrl: 'https://github.com/rajat-kumar-thakur/Restaurant-Mangament-System',
-      featured: true,
-    },
-    {
-      title: 'Low Light Image Enhancement using Deep Learning',
-      description: 'Executed a two-phase approach for enhancing low-light images using Decomposition and Refinement techniques. Achieved 90% improvement in brightness and contrast.',
-      image: '',
-      technologies: ['Deep Learning', 'Image Processing'],
-      githubUrl: '',
-      featured: false,
-    },
-    {
-      title: 'File Sharing Web App',
-      description: 'Built a full-stack file sharing platform with automated email integration, managing concurrent users. Added email automation for personalized download messages, improving engagement.',
-      image: '',
-      technologies: ['React.js', 'Node.js', 'Express', 'MongoDB'],
-      liveUrl: '',
-      githubUrl: 'https://github.com/rajat-kumar-thakur/File-Sharing-App',
-      featured: false,
-    },
-    {
-      title: 'Collaborative Whiteboard App',
-      description: 'A collaborative whiteboard application built with TypeScript and Vite. Enables real-time drawing and collaboration using websockets on a digital canvas.',
-      image: '/collab.png', // Add an image to public/ and update this path if available
-      technologies: ['React', 'Typescript', 'WebSockets', 'Canvas API'],
-      liveUrl: 'https://basic-whiteboard-app.vercel.app/',
-      githubUrl: 'https://github.com/rajat-kumar-thakur/Whiteboard-App',
-      featured: false,
-    },
-  ];
+    title: 'Fake News Detection',
+    description:
+      'Developed a Fake News Detection system using NLP techniques with TF-IDF feature extraction. Trained and evaluated multiple machine learning models including Logistic Regression, Naive Bayes, KNN, Decision Tree, and Random Forest to classify news as real or fake and compare performance metrics.',
+    image: '/fake-news-detection.png', // add image in public/
+    technologies: [
+      'Python',
+      'Machine Learning',
+      'NLP',
+      'Pandas',
+      'NumPy',
+      'Seaborn',
+    ],
+    githubUrl: 'https://github.com/ishita-139/Fake-News-Detection-Using-MLr',
+    featured: true,
+  },
+     {
+    title: 'AI Quiz Generator App',
+    description:
+      'Created an AI-powered Quiz Generator using Python, Streamlit, and OpenAI LLMs. The application accepts user-provided text, allows selection of difficulty levels (Easy/Medium/Hard), and dynamically generates quizzes in real time using prompt engineering.',
+    image: '/ai-quiz-generator.png', // add image in public/
+    technologies: [
+      'Python',
+      'OpenAI',
+      'LLM',
+      'Streamlit',
+      'Pandas',
+      'NumPy',
+    ],
+    githubUrl: 'https://github.com/ishita-139/AI-powered-Quiz-Generator',
+    featured: true,
+  },
+];
+   
 
   const featuredProjects = projects.filter(project => project.featured);
   const otherProjects = projects.filter(project => !project.featured);
