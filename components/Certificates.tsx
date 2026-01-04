@@ -10,7 +10,7 @@ const certificates = [
     date: 'March 2024',
     description:
       'Covered core deep learning concepts including neural networks, backpropagation, CNNs, and model optimization.',
-    image: '/certificate_deeplearning.png',
+    image: '/certificate_deeplearning.jpeg',
     url: 'https://courses.nvidia.com/certificates/38a49b678d524ade967b39a9c86e5d33',
   },
   {
@@ -19,7 +19,7 @@ const certificates = [
     date: 'May 2023',
     description:
       'Selected as a scholar for Amazon ML Summer School and certified in Machine Learning fundamentals by IBM.',
-    image: '/certificate_amazon_ml.png',
+    image: '/certificate_amazon_ml.jpeg',
     url: 'https://courses.cognitiveclass.ai/certificates/40996b54d02c4be69127434c0bc1a261',
   },
    {
@@ -28,7 +28,7 @@ const certificates = [
     date: 'July 2023',
     description:
       'Recognized as a Beta Microsoft Learn Student Ambassador for contributions to technical communities and peer learning.',
-    image: '/certificate_mlsa.png',
+    image: '/certificate_mlsa.jpeg',
     url: 'https://drive.google.com/file/d/1emwH1fC_ZqtsahPdiBS8RI2o-BVnEp6i/view?usp=sharing',
   },
   {
@@ -37,7 +37,7 @@ const certificates = [
     date: '2023 – 2024',
     description:
       'Earned 40+ skill badges and certifications covering cloud fundamentals, data, and ML workflows.',
-    image: '/certificate_gcp.png',
+    image: '/certificate_gcp.jpeg',
     url: 'https://www.cloudskillsboost.google/public_profiles/50b30910-9c3d-4981-89d3-2012289a0e31',
   }
 ];
