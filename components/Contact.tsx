@@ -55,20 +55,20 @@ export function Contact() {
     {
       icon: <Mail className="h-5 w-5" />,
       title: 'Email',
-      details: 'rajatlovescloud@gmail.com',
-      href: 'mailto:rajatlovescloud@gmail.com'
+      details: 'ishitaagarwal1309@gmail.com',
+      href: 'mailto:ishitaagarwal1309@gmail.com'
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: 'Phone',
-      details: '8810544717',
-      href: 'tel:8810544717'
+      details: '9871584100',
+      href: 'tel:9871584100'
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: 'Location',
-      details: 'Delhi, India',
-      href: 'https://maps.google.com/?q=Delhi,India'
+      details: 'Ghaziabad, India',
+      href: 'https://maps.google.com/?q=Ghaziabad,India'
     }
   ];
 
@@ -76,20 +76,20 @@ export function Contact() {
     {
       icon: <Github className="h-5 w-5" />,
       name: 'GitHub',
-      href: 'https://github.com/rajat-kumar-thakur',
-      username: '@rajat-kumar-thakur'
+      href: 'https://github.com/ishita-139',
+      username: '@ishita-139'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/rajat-kumar-thakur',
-      username: '/in/rajat-kumar-thakur'
+      href: 'https://www.linkedin.com/in/ishita-agarwal-a65168238/',
+      username: '/in/ishita-agarwal'
     },
     {
       icon: <Twitter className="h-5 w-5" />,
       name: 'X (Twitter)',
-      href: 'https://x.com/RajatKrThakur04',
-      username: '@RajatKrThakur04'
+      href: 'https://x.com/AgarwalIsh81164',
+      username: '@AgarwalIsh81164'
     }
   ];
 
