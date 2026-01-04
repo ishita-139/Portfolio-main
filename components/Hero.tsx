@@ -56,13 +56,13 @@ export function Hero() {
           {/* Profile Image */}
           <img
             src="/profile.jpg"
-            alt="Rajat Kumar Thakur profile"
+            alt="Ishita Agarwal profile"
             className="w-32 h-32 mx-auto mb-8 rounded-full border-4 border-primary object-cover shadow-lg"
           />
 
           {/* Name and Title */}
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
-            Hi, I&apos;m <span className="text-primary">Rajat Kumar Thakur</span>
+            Hi, I&apos;m <span className="text-primary">Ishita Agarwal</span>
           </h1>
           
           <div className="text-xl md:text-2xl mb-8 text-foreground/80 min-h-[2rem]">
@@ -72,8 +72,8 @@ export function Hero() {
 
           {/* Description */}
           <p className="text-lg md:text-xl mb-12 text-foreground/70 max-w-2xl mx-auto leading-relaxed">
-            Dedicated and passionate Computer Science student with a strong interest in Artificial Intelligence, Deep Learning, 
-            and Full Stack Development. 
+            Dedicated and passionate Computer Science student with a strong interest in Machine Learning,Data Science 
+            ,Full Stack Development ,Artificial Intelligence and Deep Learning,. 
             I am skilled in multiple programming languages and technologies, including C++, Python, JavaScript, and frameworks like Next.js and Pytorch. 
           </p>
 
@@ -106,7 +106,7 @@ export function Hero() {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com/rajat-kumar-thakur"
+              href="https://github.com/ishita-139"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors hover:scale-110 transform duration-200"
@@ -115,7 +115,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/rajat-kumar-thakur"
+              href="https://www.linkedin.com/in/ishita-agarwal-a65168238/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors hover:scale-110 transform duration-200"
@@ -124,7 +124,7 @@ export function Hero() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto: rajatlovescloud@gmail.com"
+              href="mailto: ishitaagarwal1309@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors hover:scale-110 transform duration-200"
