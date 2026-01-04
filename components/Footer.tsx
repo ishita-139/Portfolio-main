@@ -13,7 +13,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-foreground/70 flex items-center justify-center md:justify-start">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by Rajat Kumar Thakur
+              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by Ishita Agarwal
             </p>
             <p className="text-sm text-foreground/50 mt-1">
               © {new Date().getFullYear()} All rights reserved.
