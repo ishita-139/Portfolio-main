@@ -1,6 +1,6 @@
 'use client';
 
-import { Code, Server, Database, PenTool as Tool } from 'lucide-react';
+import { Code,Cpu, Server, Database, PenTool as Tool } from 'lucide-react';
 import { Card } from './ui/card';
 
 interface SkillProps {
