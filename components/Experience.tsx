@@ -16,57 +16,94 @@ interface ExperienceItem {
 export function Experience() {
   const experiences: ExperienceItem[] = [
     {
-      title: 'Software Development Intern',
-      company: 'Cableteque Corporation',
-      location: 'Remote',
-      period: 'Sept 2025 - Present',
-      description: 'Assist in data preprocessing and cleaning for machine learning projects. Develop and optimize machine learning models using Python and relevant libraries. Conduct exploratory data analysis to identify trends and insights.',
-      achievements: [
-        'Implemented and tested different algorithms to evaluate model performance',
-        'Collaborated with the team to deploy and monitor ML models in production environments',
-        'Documented code, experiments, and results for knowledge sharing and reproducibility',
-        'Participated in team meetings to discuss project progress and brainstorm innovative solutions',
-      ],
-      technologies: ['Python', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Machine Learning', 'Data Analysis'],
-    },
-    {
-      title: 'Summer Research Intern',
-      company: 'IIT Gandhinagar',
-      location: 'Gujarat, India',
-      period: 'May 2025 - July 2025',
-      description: 'Developed language models for code generation and execution on resource-constrained devices. Optimized SLMs, reducing inference latency by 46.3% for TinyLlama and achieving 2.57s for StarCoder.',
-      achievements: [
-        'Reduced inference latency by 46.3% for TinyLlama',
-        'Achieved 2.57s inference for StarCoder',
-        'Developed efficient pipelines for code analysis under 3s',
-      ],
-      technologies: ['Python', 'Pytorch', 'AI', 'TinyLlama', 'StarCoder'],
-    },
-    {
-      title: 'Teaching Assistant',
-      company: 'IIIT Vadodara',
-      location: 'Gujarat, India',
-      period: 'Aug 2024 - Apr 2025',
-      description: 'Mentored 90+ students in software engineering and C programming. Also assisted 100+ students in developing analytical and programming skills during C lab sessions.',
-      achievements: [
-        'Guided students in scalable software design',
-        'Supported C programming labs for 100+ students',
-      ],
-      technologies: ['C', 'Software Engineering'],
-    },
-    {
-      title: 'General Secretary of Academics Committee',
-      company: 'IIIT Vadodara',
-      location: 'Gujarat, India',
-      period: 'May 2024 - Apr 2025',
-      description: 'Led a team of 8 in planning and executing academic-focused events. Organized and promoted 10+ academic events to enhance student engagement.',
-      achievements: [
-        'Organized 10+ academic events',
-        'Led a team of 8 members',
-      ],
-      technologies: ['Leadership', 'Event Management'],
-    },
-  ];
+    title: 'Software Developer Intern',
+    company: 'Teliolabs Communication Inc.',
+    location: 'Remote',
+    period: 'July 2025 - August 2025',
+    description:
+      'Worked on data-driven reporting and analytics solutions, contributing to automated reporting, database analysis, and business intelligence dashboards.',
+    achievements: [
+      'Developed automated reports in Oracle OAP including requirement gathering, report creation, and validation.',
+      'Built Power BI dashboards and utilization reports by analyzing database schemas.',
+      'Wrote optimized SQL queries to extract, transform, and analyze large datasets.',
+      'Collaborated with teams to ensure data accuracy and reporting efficiency.',
+    ],
+    technologies: [
+      'SQL',
+      'Oracle OAP',
+      'Power BI',
+      'DBeaver',
+      'MobaXterm',
+      'NetExtender',
+    ],
+  },
+  {
+    title: 'AI Engineer Intern',
+    company: 'DBA Lounge Pvt. Ltd.',
+    location: 'Noida, India',
+    period: 'Jan 2025 - July 2025',
+    description:
+      'Contributed to building AI-powered SaaS products and automation workflows using large language models and full-stack technologies.',
+    achievements: [
+      'Developed AI SaaS services including AI website builder, article generation, image generation, object removal, and background removal.',
+      'Integrated LLM-based features into web applications using modern frontend and backend stacks.',
+      'Built and deployed AI agents using n8n for workflow automation such as email scheduling.',
+      'Collaborated with cross-functional teams to deliver scalable AI-driven solutions.',
+    ],
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+      'Node.js',
+      'MongoDB',
+      'LLMs',
+      'n8n',
+    ],
+  },
+  {
+    title: 'Teaching Assistant',
+    company: 'Jaypee Institute of Information Technology (JIIT)',
+    location: 'Noida, India',
+    period: '2024 - 2025',
+    description:
+      'Assisted students in building strong foundations in programming and problem-solving while supporting academic activities.',
+    achievements: [
+      'Mentored students in programming concepts and problem-solving techniques.',
+      'Assisted in lab sessions and evaluations for computer science courses.',
+      'Published technical articles on the GeeksforGeeks platform.',
+    ],
+    technologies: ['C/C++', 'Data Structures', 'Teaching', 'Problem Solving'],
+  },
+  {
+    title: 'Vice President – Technical Committee',
+    company: 'IIIT Vadodara',
+    location: 'Gujarat, India',
+    period: 'Aug 2023 - May 2024',
+    description:
+      'Played a leadership role in organizing technical events, workshops, and inter-institute activities.',
+    achievements: [
+      'Organized inter-institute technical fests and workshops.',
+      'Coordinated with teams to conduct orientation programs and technical sessions.',
+      'Enhanced student participation through well-structured academic and technical events.',
+    ],
+    technologies: ['Leadership', 'Event Management', 'Team Coordination'],
+  },
+  {
+    title: 'Women in Tech Lead',
+    company: 'GDSC IIIT Vadodara',
+    location: 'Gujarat, India',
+    period: 'Aug 2023 - May 2024',
+    description:
+      'Led initiatives focused on empowering women in technology through mentorship, awareness, and community-building programs.',
+    achievements: [
+      'Promoted women-focused mentorship programs and scholarships.',
+      'Conducted awareness sessions to encourage participation in tech communities.',
+      'Contributed to building an inclusive and supportive technical ecosystem.',
+    ],
+    technologies: ['Community Building', 'Leadership', 'Mentorship'],
+  },
+];
 
   return (
     <section id="experience" className="py-20 bg-background">
