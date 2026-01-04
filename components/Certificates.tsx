@@ -5,20 +5,40 @@ import { Card } from './ui/card';
 
 const certificates = [
   {
-    title: 'Evaluation and Light Customization of Large Language Models',
-    issuer: 'NVIDIA',
-    date: 'July 2025',
-    description: 'Certificate earned for demonstrating competence in completion of evaluation and light customization of large language models.',
-    image: '/certificate_llms.png', // Add your image to public folder
-    url: 'https://learn.nvidia.com/certificates?id=Kb8gQzsGRY-OLYZnV2KMow' // Replace with actual certificate link
-  },
-  {
     title: 'Fundamentals of Deep Learning',
     issuer: 'NVIDIA',
-    date: 'September 2024',
-    description: 'Certificate earned for demonstrating competence in completion of fundamentals of deep learning.',
-    image: '/certificate_deeplearning.png', // Add your image to public folder
-    url: 'https://learn.nvidia.com/certificates?id=jhY7wEZxSJi6jGO9czVKmg' // Replace with actual certificate link
+    date: 'March 2024',
+    description:
+      'Covered core deep learning concepts including neural networks, backpropagation, CNNs, and model optimization.',
+    image: '/certificate_deeplearning.png',
+    url: 'https://courses.nvidia.com/certificates/38a49b678d524ade967b39a9c86e5d33',
+  },
+  {
+    title: 'Amazon ML Summer School Scholar',
+    issuer: 'Amazon & IBM (Cognitive Class)',
+    date: 'May 2023',
+    description:
+      'Selected as a scholar for Amazon ML Summer School and certified in Machine Learning fundamentals by IBM.',
+    image: '/certificate_amazon_ml.png',
+    url: 'https://courses.cognitiveclass.ai/certificates/40996b54d02c4be69127434c0bc1a261',
+  },
+   {
+    title: 'Beta Microsoft Learn Student Ambassador',
+    issuer: 'Microsoft',
+    date: 'July 2023',
+    description:
+      'Recognized as a Beta Microsoft Learn Student Ambassador for contributions to technical communities and peer learning.',
+    image: '/certificate_mlsa.png',
+    url: 'https://drive.google.com/file/d/1emwH1fC_ZqtsahPdiBS8RI2o-BVnEp6i/view?usp=sharing',
+  },
+  {
+    title: 'Google Cloud Arcade – Skill Badges',
+    issuer: 'Google Cloud',
+    date: '2023 – 2024',
+    description:
+      'Earned 40+ skill badges and certifications covering cloud fundamentals, data, and ML workflows.',
+    image: '/certificate_gcp.png',
+    url: 'https://www.cloudskillsboost.google/public_profiles/50b30910-9c3d-4981-89d3-2012289a0e31',
   }
 ];
 
