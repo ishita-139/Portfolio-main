@@ -55,7 +55,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
           <img
-            src="/profile.jpg"
+            src="/solo.jpeg"
             alt="Ishita Agarwal profile"
             className="w-32 h-32 mx-auto mb-8 rounded-full border-4 border-primary object-cover shadow-lg"
           />
