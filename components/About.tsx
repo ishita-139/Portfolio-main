@@ -12,7 +12,7 @@ export function About() {
           <div className="flex flex-col lg:flex-row items-center gap-8 justify-center">
             <img
               src="/profile2.png"
-              alt="Rajat Kumar Thakur profile"
+              alt="Ishita Agarwal profile"
               className="w-40 h-40 rounded-full border-4 border-primary object-cover shadow-lg mb-6 lg:mb-0"
             />
             <div className="text-center lg:text-left">
@@ -20,7 +20,7 @@ export function About() {
                 About Me
               </h2>
               <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-                Hi, I&apos;m Rajat Kumar Thakur, a Computer Science undergraduate at IIIT Vadodara with a passion for AI, software engineering, and impactful technology solutions. I thrive on building innovative projects, optimizing systems, and mentoring peers.
+                Hi, I&apos;m Ishita Agarwal, a computer Science graduate from IIIT Vadodara  with a passion for AI, software engineering, and impactful technology solutions. I thrive on building innovative projects, optimizing systems, and mentoring peers.
               </p>
             </div>
           </div>
@@ -32,14 +32,16 @@ export function About() {
             <div className="space-y-6 text-center lg:text-left">
               <h3 className="text-2xl font-semibold mb-6 text-foreground">Professional Summary</h3>
               <p className="text-foreground/80 leading-relaxed">
-                I am a highly motivated Computer Science student at IIIT Vadodara (GPA: 9.46), with hands-on experience in AI, deep learning, and full-stack development. My work includes research internships, impactful open-source projects, and leadership in academic initiatives. I excel at building efficient, scalable solutions and enjoy collaborating on challenging problems.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                My technical expertise spans C, C++, Python, JavaScript, Next.js, React, Node.js, SQL, MongoDB, TensorFlow, and cloud platforms. I am passionate about leveraging technology for real world impact and continuous learning.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                I have mentored 90+ students, led academic committees, and consistently delivered high-quality results in both academic and project settings. Let&apos;s connect to build something great together!
-              </p>
+  I am a highly motivated Computer Science graduate and Chairperson’s Gold Medalist, currently pursuing an M.Tech in Computer Science and Engineering. With a strong academic foundation and hands-on industry experience, I have worked on AI-driven applications, data-centric systems, and full-stack development projects that focus on scalability and real-world impact.
+</p>
+
+<p className="text-foreground/80 leading-relaxed">
+  My technical expertise includes C/C++, Python, JavaScript, React, Next.js, Node.js, SQL, MongoDB, Machine Learning, NLP, and data visualization tools such as Power BI. I am passionate about applying intelligent systems and modern technologies to solve complex problems while continuously expanding my skill set.
+</p>
+
+<p className="text-foreground/80 leading-relaxed">
+  Beyond technical work, I have mentored students, led technical and academic committees, and contributed to knowledge-sharing through teaching assistance and technical writing. I value collaboration, structured problem-solving, and building solutions that deliver meaningful user experiences.
+</p>
             </div>
           </div>
 
@@ -66,7 +68,7 @@ export function About() {
                   </div>
                   <div>
                     <p className="text-sm text-foreground/60">Location</p>
-                    <p className="font-medium text-foreground">Delhi, India</p>
+                    <p className="font-medium text-foreground">Ghaziabad, India</p>
                   </div>
                 </div>
               </Card>
@@ -78,7 +80,7 @@ export function About() {
                   </div>
                   <div>
                     <p className="text-sm text-foreground/60">Experience</p>
-                    <p className="font-medium text-foreground">Internships & Research</p>
+                    <p className="font-medium text-foreground">Internships </p>
                   </div>
                 </div>
               </Card>
@@ -106,13 +108,12 @@ export function About() {
               <p className="text-foreground/80 leading-relaxed mb-6">
                 My journey into software development began with a strong foundation in computer science 
                 and a passion for creating innovative digital solutions. I&apos;ve had the opportunity to work 
-                on diverse projects ranging from optimizing language models to building applications for daily use, always 
+                on diverse projects ranging from AI models to building applications for daily use, always 
                 focusing on delivering high-quality, scalable solutions.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-6">
                 I believe in continuous learning and staying updated with the latest industry trends. 
-                My experience includes working with modern development practices, implementing CI/CD 
-                pipelines, and optimizing application performance for better user experiences.
+                My experience includes building scalable applications using modern development practices, automating workflows, and optimizing system performance to deliver reliable and efficient user experiences.
               </p>
               <p className="text-foreground/80 leading-relaxed">
                 I&apos;m passionate about clean code, best practices, and creating solutions that not only 
