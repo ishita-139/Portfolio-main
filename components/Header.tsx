@@ -55,7 +55,7 @@ export function Header() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              Rajat Kumar Thakur
+              Ishita Agarwal
             </a>
           </div>
 
