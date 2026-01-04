@@ -25,7 +25,7 @@ export function Projects() {
     title: 'AI Finance Platform',
     description:
       'Built an AI-powered finance management platform with a user-friendly dashboard featuring charts, tables, and AI-based receipt scanning. Integrated Gemini AI to generate financial insights, automate recurring transactions, and send budget alerts. Implemented secure authentication, rate limiting, and bot protection.',
-    image: '/ai-finance-platform.png', // add image in public/
+    image: '/ai-finance-platform.jpeg', // add image in public/
     technologies: [
       'Next.js',
       'Tailwind CSS',
@@ -42,7 +42,7 @@ export function Projects() {
     title: 'Fake News Detection',
     description:
       'Developed a Fake News Detection system using NLP techniques with TF-IDF feature extraction. Trained and evaluated multiple machine learning models including Logistic Regression, Naive Bayes, KNN, Decision Tree, and Random Forest to classify news as real or fake and compare performance metrics.',
-    image: '/fake-news-detection.png', // add image in public/
+    image: '/fake-news-detection.jpeg', // add image in public/
     technologies: [
       'Python',
       'Machine Learning',
@@ -58,7 +58,7 @@ export function Projects() {
     title: 'AI Quiz Generator App',
     description:
       'Created an AI-powered Quiz Generator using Python, Streamlit, and OpenAI LLMs. The application accepts user-provided text, allows selection of difficulty levels (Easy/Medium/Hard), and dynamically generates quizzes in real time using prompt engineering.',
-    image: '/ai-quiz-generator.png', // add image in public/
+    image: '/ai-quiz-generator.jpeg', // add image in public/
     technologies: [
       'Python',
       'OpenAI',
