@@ -28,48 +28,53 @@ function SkillBar({ name, level }: SkillProps) {
 export function Skills() {
   const skillCategories = [
     {
-      title: 'Languages',
-      icon: <Code className="h-6 w-6" />,
-      skills: [
-        { name: 'C', level: 97 },
-        { name: 'C++', level: 95 },
-        { name: 'Python', level: 90 },
-        { name: 'R', level: 70 },
-        { name: 'JavaScript', level: 85 },
-      ],
-    },
-    {
-      title: 'Databases',
-      icon: <Database className="h-6 w-6" />,
-      skills: [
-        { name: 'SQL', level: 95 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'PostgreSQL', level: 70 },
-      ],
-    },
-    {
-      title: 'Frameworks & Tools',
-      icon: <Server className="h-6 w-6" />,
-      skills: [
-        { name: 'Next.js', level: 85 },
-        { name: 'React', level: 85 },
-        { name: 'Node.js', level: 80 },
-        { name: 'Express', level: 75 },
-        { name: 'Tailwind CSS', level: 80 },
-        { name: 'Pytorch', level: 85 },
-      ],
-    },
-    {
-      title: 'Cloud & DevOps',
-      icon: <Tool className="h-6 w-6" />,
-      skills: [
-        { name: 'Google Cloud Platform', level: 70 },
-        { name: 'Firebase', level: 70 },
-        { name: 'Git/GitHub', level: 85 },
-        { name: 'Postman', level: 85 },
-      ],
-    },
-  ];
+    title: 'Programming Languages',
+    icon: <Code className="h-6 w-6" />,
+    skills: [
+      { name: 'C', level: 95 },
+      { name: 'C++', level: 95 },
+      { name: 'Python', level: 92 },
+      { name: 'R', level: 75 },
+      { name: 'JavaScript', level: 85 },
+      { name: 'SQL', level: 90 },
+    ],
+  },
+  {
+    title: 'Web Technologies',
+    icon: <Server className="h-6 w-6" />,
+    skills: [
+      { name: 'MySQL', level: 90 },
+      { name: 'MongoDB', level: 82 },
+      { name: 'React.js', level: 85 },
+      { name: 'Node.js', level: 80 },
+      { name: 'Tailwind CSS', level: 82 },
+      { name: 'REST APIs', level: 85 },
+    ],
+  },
+  {
+    title: 'AI / ML & Data Science',
+    icon: <Cpu className="h-6 w-6" />,
+    skills: [
+      { name: 'Machine Learning', level: 90 },
+      { name: 'Deep Learning', level: 85 },
+      { name: 'Natural Language Processing', level: 85 },
+      { name: 'NumPy', level: 90 },
+      { name: 'Pandas', level: 90 },
+      { name: 'Seaborn', level: 80 },
+    ],
+  },
+  {
+    title: 'Tools & Cloud',
+    icon: <Tool className="h-6 w-6" />,
+    skills: [
+      { name: 'Git & GitHub', level: 88 },
+      { name: 'Google Cloud Platform', level: 75 },
+      { name: 'n8n Automation', level: 75 },
+      { name: 'Postman', level: 85 },
+    ],
+  },
+];
+   
 
   return (
     <section id="skills" className="py-20 bg-secondary/20">
