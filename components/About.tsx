@@ -11,7 +11,7 @@ export function About() {
         <div className="mb-16">
           <div className="flex flex-col lg:flex-row items-center gap-8 justify-center">
             <img
-              src="/profile2.png"
+              src="/profile2.jpg"
               alt="Ishita Agarwal profile"
               className="w-40 h-40 rounded-full border-4 border-primary object-cover shadow-lg mb-6 lg:mb-0"
             />
