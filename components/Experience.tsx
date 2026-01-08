@@ -45,9 +45,9 @@ export function Experience() {
     description:
       'Contributed to building AI-powered SaaS products and automation workflows using large language models and full-stack technologies.',
     achievements: [
-      'Developed AI SaaS services including AI website builder, article generation, image generation, object removal, and background removal.',
-      'Integrated LLM-based features into web applications using modern frontend and backend stacks.',
-      'Built and deployed AI agents using n8n for workflow automation such as email scheduling.',
+      'Developed AI SaaS services including article generation, image generation, object removal, and background removal.',
+      'Integrated Gemini API , Clerk authentication features into web applications using modern frontend and backend stacks.',
+      'Built and deployed AI agents using n8n for workflow automation integrating WhatsApp API, Google Sheets, Stripe payments, gemini API',
       'Collaborated with cross-functional teams to deliver scalable AI-driven solutions.',
     ],
     technologies: [
@@ -56,8 +56,7 @@ export function Experience() {
       'JavaScript',
       'React.js',
       'Node.js',
-      'MongoDB',
-      'LLMs',
+      'PostgreSQL',
       'n8n',
     ],
   },
@@ -71,7 +70,6 @@ export function Experience() {
     achievements: [
       'Mentored students in programming concepts and problem-solving techniques.',
       'Assisted in lab sessions and evaluations for computer science courses.',
-      'Published technical articles on the GeeksforGeeks platform.',
     ],
     technologies: ['C/C++', 'Data Structures', 'Teaching', 'Problem Solving'],
   },
