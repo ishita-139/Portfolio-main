@@ -74,7 +74,7 @@ export function Hero() {
           <p className="text-lg md:text-xl mb-12 text-foreground/70 max-w-2xl mx-auto leading-relaxed">
             Dedicated and passionate Computer Science student with a strong interest in Machine Learning,Data Science 
             ,Full Stack Development ,Artificial Intelligence and Deep Learning,. 
-            I am skilled in multiple programming languages and technologies, including C++, Python, JavaScript, and frameworks like Next.js and Pytorch. 
+            I am skilled in multiple programming languages and technologies, including C++, Python, HTML,CSS,MySQL and frameworks like React.js and Node.js. 
           </p>
 
           {/* CTA Buttons */}
