@@ -95,7 +95,7 @@ export function Hero() {
               className="group"
               onClick={() => {
                 // This would typically download the actual resume
-                window.open('/resume.pdf', '_blank');
+                window.open('/Ishita_Agarwal_Resume_2503030003.pdf', '_blank');
               }}
             >
               <Download className="mr-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
