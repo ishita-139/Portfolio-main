@@ -31,12 +31,11 @@ export function Skills() {
     title: 'Programming Languages',
     icon: <Code className="h-6 w-6" />,
     skills: [
-      { name: 'C', level: 95 },
+      { name: 'C', level: 90 },
       { name: 'C++', level: 95 },
-      { name: 'Python', level: 92 },
-      { name: 'R', level: 75 },
-      { name: 'JavaScript', level: 85 },
-      { name: 'SQL', level: 90 },
+      { name: 'Python', level: 90 },
+      { name: 'R', level: 80 },
+      { name: 'JavaScript', level: 80 },
     ],
   },
   {
@@ -44,11 +43,11 @@ export function Skills() {
     icon: <Server className="h-6 w-6" />,
     skills: [
       { name: 'MySQL', level: 90 },
-      { name: 'MongoDB', level: 82 },
-      { name: 'React.js', level: 85 },
+      { name: 'MongoDB', level: 85 },
+      { name: 'React.js', level: 80 },
       { name: 'Node.js', level: 80 },
-      { name: 'Tailwind CSS', level: 82 },
-      { name: 'REST APIs', level: 85 },
+      { name: ' CSS', level: 85 },
+      { name: 'HTML', level: 85 },
     ],
   },
   {
@@ -56,11 +55,9 @@ export function Skills() {
     icon: <Cpu className="h-6 w-6" />,
     skills: [
       { name: 'Machine Learning', level: 90 },
-      { name: 'Deep Learning', level: 85 },
+      { name: 'Deep Learning', level: 80 },
       { name: 'Natural Language Processing', level: 85 },
-      { name: 'NumPy', level: 90 },
-      { name: 'Pandas', level: 90 },
-      { name: 'Seaborn', level: 80 },
+      { name: 'Data Science', level: 85 },
     ],
   },
   {
@@ -68,9 +65,9 @@ export function Skills() {
     icon: <Tool className="h-6 w-6" />,
     skills: [
       { name: 'Git & GitHub', level: 88 },
-      { name: 'Google Cloud Platform', level: 75 },
+      { name: 'AWS', level: 80 },
       { name: 'n8n Automation', level: 75 },
-      { name: 'Postman', level: 85 },
+      { name: 'PowerBI', level: 80 },
     ],
   },
 ];
@@ -133,15 +130,9 @@ export function Skills() {
               'Operating System',
               'NumPy',
               'Pandas',
-              'Pytorch',
-              'Matplotlib',
               'VS Code',
               'Jupyter Notebook',
-              'Archimate',
               'StarUML',
-              'Linux',
-              'Selenium',
-              'GitHub Actions',
             ].map((skill, index) => (
               <span
                 key={index}
